@@ -193,6 +193,7 @@
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Sketcher.h" />
+    <ClInclude Include="SketcherConstants.h" />
     <ClInclude Include="SketcherDoc.h" />
     <ClInclude Include="SketcherView.h" />
     <ClInclude Include="stdafx.h" />
@@ -226,4 +227,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Sketcher.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

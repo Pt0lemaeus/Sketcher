@@ -106,6 +106,16 @@ BEGIN
     SEPARATOR
     BUTTON      ID_FILE_PRINT
     BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      ID_ELEMENT_LINE
+    BUTTON      ID_ELEMENT_RECTANGLE
+    BUTTON      ID_ELEMENT_CIRCLE
+    BUTTON      ID_ELEMENT_CURVE
+    SEPARATOR
+    BUTTON      ID_COLOR_RED
+    BUTTON      ID_COLOR_BLUE
+    BUTTON      ID_COLOR_GREEN
+    BUTTON      ID_COLOR_BLACK
 END
 
 
@@ -176,6 +186,13 @@ BEGIN
         MENUITEM "Rectangle",                   ID_ELEMENT_RECTANGLE
         MENUITEM "Circle",                      ID_ELEMENT_CIRCLE
         MENUITEM "Curve",                       ID_ELEMENT_CURVE
+    END
+    POPUP "&Color"
+    BEGIN
+        MENUITEM "Black",                       ID_COLOR_BLACK
+        MENUITEM "Red",                         ID_COLOR_RED
+        MENUITEM "Green",                       ID_COLOR_GREEN
+        MENUITEM "Blue",                        ID_COLOR_BLUE
     END
     POPUP "&Window"
     BEGIN
@@ -424,8 +441,8 @@ END
 
 STRINGTABLE
 BEGIN
-    ID_ELEMENT_LINE         "Draw lines"
-    ID_ELEMENT_RECTANGLE    "Rectangle"
+    ID_ELEMENT_LINE         "\nDraw lines"
+    ID_ELEMENT_RECTANGLE    "\nRectangle"
     ID_ELEMENT_CIRCLE       "Circle"
 END
 
